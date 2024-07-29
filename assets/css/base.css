@@ -33,4 +33,5 @@ html{
 .button:hover{
     background-color: var(--foreground);
     color: var(--primary-foreground);
+
 }
