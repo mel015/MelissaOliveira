@@ -59,3 +59,12 @@
     font-size: 1.7rem;
     line-height: 2.5rem;
 }
+@media(width>600px){
+    .skills .grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .skills .skill{
+        border-bottom: 0;
+        border-right: 1px solid var(--primary-light);
+    }
+}
