@@ -36,3 +36,26 @@
     color: var(--secondary-foreground);
     margin: auto;
 }
+.skill-icon img{
+    width: 4rem;
+    height: 4rem;
+}
+.skill-title{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 3rem 0;
+}
+.skill-desc{
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+.skill-sub{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    color: var(--foreground);
+}
+.skill-txt{
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
