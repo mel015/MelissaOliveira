@@ -4,7 +4,7 @@ header{
     align-items: center;
 }
 .navbar{
-    flex: 1;
+    flex:1;
     width: 100%;
     padding: 2rem;
     display: flex;
@@ -45,7 +45,7 @@ header nav a{
 header nav.opened{
     display: flex;
 }
-@media (width>600px){
+@media(width>600px){
     header{
         flex-direction: row;
     }
