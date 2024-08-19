@@ -67,3 +67,16 @@
     font-size: 2rem;
     text-decoration: none;
 }
+@media (width>600px){
+    .recent-work .title{
+        font-size: 3.5rem;
+    }
+    .recent-work .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (width>900px){
+    .recent-work .grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
