@@ -62,3 +62,8 @@
 .recent-work .item:hover .overlay{
     opacity: 1;
 }
+.recent-work .seemore{
+    margin: 6rem 0;
+    font-size: 2rem;
+    text-decoration: none;
+}
