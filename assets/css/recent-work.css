@@ -20,3 +20,10 @@
 .recent-work .subtitle a:hover{
     text-decoration: underline;
 }
+.recent-work .grid{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+.
