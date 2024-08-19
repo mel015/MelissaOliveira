@@ -26,3 +26,8 @@
     grid-template-columns: 1fr;
     gap: 2rem;
 }
+.recent-work .item{
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.5rem;
+}
