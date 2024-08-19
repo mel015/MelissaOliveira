@@ -1,0 +1,22 @@
+.recent-work{
+    text-align: center;
+    color: var(--primary);
+    padding: 0 2rem;
+}
+.recent-work .title{
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-top: 8rem;
+    margin-bottom: 3.5rem;
+}
+.recent-work .subtitle{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.recent-work .subtitle a{
+    color: var(--foreground);
+    text-decoration: none;
+}
+.recent-work .subtitle a:hover{
+    text-decoration: underline;
+}
