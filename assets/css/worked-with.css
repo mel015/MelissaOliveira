@@ -15,7 +15,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
-.worked-with .grid .img{
+.worked-with .grid img{
     width: 100%;
 }
 @media(width>600px){
