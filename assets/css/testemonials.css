@@ -1,68 +1,68 @@
-.testmonials{
+.testemonials{
     padding: 8rem 2rem;
     text-align: center;
     color: var(--primary);
 }
-.testmonials .title{
+.testemonials .title{
     font-weight: bold;
     font-size: 2.5rem;
     line-height: 3rem;
     margin-bottom: 3rem;
 }
-.testmonials .subtitle{
+.testemonials .subtitle{
     font-size: 2rem;
     line-height: 2.5rem;
     margin-bottom: 4rem;
 }
-.testmonials .slider{
+.testemonials .slider{
     max-width: 50rem;
     overflow-x: hidden;
     margin: auto;
 }
-.testmonials .slider input{
+.testemonials .slider input{
     display: none;
 }
-.testmonials .slider-area{
+.testemonials .slider-area{
     width: 200%;
     display: flex;
     transition: all ease .5s;
 }
-.testmonials .slider-item{
+.testemonials .slider-item{
     width: 100%;
 }
-.testmonials .slider-item img{
+.testemonials .slider-item img{
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 4rem;
 }
-.testmonials .slider-item .description{
+.testemonials .slider-item .description{
     font-size: 2rem;
     line-height: 3.3rem;
     margin-bottom: 4rem;
 }
-.testmonials .slider-item .name{
+.testemonials .slider-item .name{
     font-weight: bold;
     font-size: 2rem;
     margin-bottom: 1.5rem;
 }
-.testmonials .slider-item .role{
+.testemonials .slider-item .role{
     font-size: 1.7rem;
 }
-.testmonials .slider-nav{
+.testemonials .slider-nav{
     display: flex;
     justify-content: center;
     gap: 2rem;
     margin-top: 4rem;
 }
-.testmonials .slider-nav label{
+.testemonials .slider-nav label{
     display: block;
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
     cursor: pointer;
-    border: .2rem solid var(--primary-light);
+    border: 2rem solid var(--primary-light);
     transition: all ease .5s;
 }
 #slider-1:checked~.slider-area{
@@ -74,6 +74,6 @@
 #slider-1:checked~.slider-nav .n1{
     background-color: var(--foreground);
 }
-#slider-2:checked~.slider-nav .n1{
+#slider-2:checked~.slider-nav .n2{
     background-color: var(--foreground);
 }
