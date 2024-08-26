@@ -62,7 +62,7 @@
     height: 2rem;
     border-radius: 50%;
     cursor: pointer;
-    border: 2rem solid var(--primary-light);
+    border: 0.2rem solid var(--primary-light);
     transition: all ease .5s;
 }
 #slider-1:checked~.slider-area{
